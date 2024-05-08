@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="io.appmetrica.analytics:push:3.3.0"/>
+        <androidPackage spec="io.appmetrica.analytics:push-plugin-adapter:3.3.0"/>
+        <androidPackage spec="androidx.annotation:annotation:1.7.1"/>
+        <androidPackage spec="com.google.firebase:firebase-messaging:22.0.0" />
+        <androidPackage spec="com.google.android.gms:play-services-base:17.5.0" />
+    </androidPackages>
+    <iosPods>
+        <iosPod name="AppMetricaPush" version="2.0.0"/>
+    </iosPods>
+</dependencies>
