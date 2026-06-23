@@ -10,4 +10,8 @@
     <iosPods>
         <iosPod name="AppMetricaPush" version="3.3.0"/>
     </iosPods>
+    <remoteSwiftPackage url="https://github.com/appmetrica/push-sdk-ios"
+                        version="3.3.0">
+        <swiftPackage name="AppMetricaPush" replacesPod="AppMetricaPush"/>
+    </remoteSwiftPackage>
 </dependencies>
